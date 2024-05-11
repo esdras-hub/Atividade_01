@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body align="center">
+    <!-- cor da primeira linha, borda, largura de cada celula; Existe tambem o conceito de implicito e explicito ja fazer como avançada, e ja fazer uma avançada para adiantar/ espaço entre as celulas/ mesclar/ alinhar/ colocar um link em uma celula  -->
+    <h1>Tabela</h1>
+    <h2>Implicito</h2>
+    <table align="center" border="2" width="1000">
+        <tr bgcolor="ciano">
+            <td width="60%">Nome</td>
+            <td width="20%">Idade</td>
+            <td width="10%">Sexo</td>
+            <td width="10%">Peso</td>
+        </tr>
+        <tr>
+            <td>Esdras</td>
+            <td>45</td>
+            <td>M</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Drica</td>
+            <td>40</td>
+            <td>F</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Jose</td>
+            <td>76</td>
+            <td>?</td>
+            <td>103</td>
+        </tr>
+    </table>
+    
+    <h2>Explicito</h2>
+    
+    <table align="center" border="2" width="1000">
+        <thead>
+            <tr bgcolor="violet">
+                <td width="60%">Nome</td>
+                <td width="20%">Idade</td>
+                <td width="10%">Sexo</td>
+                <td width="10%">Peso</td>
+            </tr>
+        </thead>
+        
+        <tbody>
+            
+            <tr>
+                <td>Esdras</td>
+                <td>45</td>
+               <td>M</td>
+               <td>90</td>
+            </tr>
+            <tr>
+                <td>Drica</td>
+                <td>40</td>
+                <td>F</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Jose</td>
+                <td>76</td>
+                <td>?</td>
+                <td>103</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- cor da primeira linha, borda, largura de cada celula; Existe tambem o conceito de implicito e explicito ja fazer como avançada, e ja fazer uma avançada para adiantar/ espaço entre as celulas/ mesclar/ alinhar/ colocar um link em uma celula  -->
+    
+    <h2>Avançado</h2>
+    <table cellpadding="30" cellspacing="5" align="center" border="2" width="1000">
+        <thead>
+            <tr bgcolor="yellow">
+                <td width="60%">Nome</td>
+                <td width="20%">Idade</td>
+                <td width="10%">Sexo</td>
+                <td width="10%">Peso</td>
+            </tr>
+        </thead>
+        
+        <tbody>
+            
+            <tr>
+                <td><a href="https://uol.com.br">UOL</a> </td>
+                <td>45</td>
+                <td>M</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Drica</td>
+                <td colspan="2">40</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Jose</td>
+                <td>76</td>
+                <td>?</td>
+                <td>103</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
