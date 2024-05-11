@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Select</title>
+</head>
+<body>
+    <h1>USANDO O SELECT</h1>
+    <form action="/HTML/10 FORMULARIO/formulario_select.html" method="post">
+        <label>Sexo</label><br>
+        <select name="sexo">
+            <option selected value="">Escolha</option>
+            <option value="">Maculino</option>
+            <option value="">Feminino</option>
+        </select>
+        <br><br>
+        <label>Selecione o Carro</label><br>
+        <select name="carro">
+            <optgroup label="Alemães">
+                <option value="fusca">Fusca</option>
+                <option value="combi">Kombi</option>
+            </optgroup>
+            <optgroup label="Italianos">
+                <option value="ferrari">Ferrari</option>
+                <option value selected="elba">Elba</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>
