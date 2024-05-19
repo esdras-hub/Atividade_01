@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <style>
+        section{
+            border: solid 4px #890;
+        }
+        div{
+            border: solid 7px #109;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>FORMULARIO 1</h1>
+    </section>
+    <hr>
+    <!-- Abre um form, coloca o de Texto,  PASSWORD, RADIO, CHECKBOX, TEXT AREA,FILE -->
+    <section>
+
+        <form action="/HTML/10 FORMULARIO/formulario1.html" method="post">
+        <div>
+            
+            <label>Nome</label><br>
+            <input type="text" name="nome">
+            <br><br>
+        </div>
+        <div>
+            <label>Senha</label><br>
+            <input type="password" name="senha">
+            <br><br>
+
+        </div>
+        <div>
+            <label>Opção</label>
+            <input type="radio" name="opcao">A
+            <input type="radio" name="opcao">B
+            <input type="radio" name="opcao">C
+            <br><br>
+
+        </div>
+        <div>
+
+            <label>Multipla Escolha</label>
+            <input type="checkbox" name="multiplo">Doce
+            <input type="checkbox" name="multiplo">Salgado
+            <input type="checkbox" name="multiplo">Bebida
+            <br><br>
+        </div>
+        <div>
+
+            <label>Texto</label><br>
+            <textarea name="texto" cols="30" rows="10"></textarea>
+            <br><br>
+        </div>
+        <div>
+
+            <label >Arquivo</label><br>
+            <input type="file" name="arquivo" >
+        </div>
+            <br>
+    </section>
+
+
+
+    </form>
+</body>
+</html>
